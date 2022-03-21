@@ -6,7 +6,7 @@ from app import settings
 from os import listdir, stat
 
 
-def file_list(request, dt: datetime = None):
+def file_list(request, date: datetime = None):
     template_name = 'index.html'
     
     # Реализуйте алгоритм подготавливающий контекстные данные для шаблона по примеру:
@@ -22,7 +22,7 @@ def file_list(request, dt: datetime = None):
     # dt = datetime.date(2018, 1, 1)
     context = {
         'files': get_context_list(),
-        'date': dt  # Этот параметр необязательный
+        'date': date  # Этот параметр необязательный
     }
     return render(request, template_name, context)
 
