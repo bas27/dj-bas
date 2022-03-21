@@ -8,4 +8,4 @@ MaxCapacity
 
 > wmic OS get Caption,CSDVersion,OSArchitecture,Version
 Caption                                     CSDVersion      OSArchitecture  Version
-Microsoft® Windows Server® 2008 Datacenter  Service Pack 2  64-bit          6.0.6002
+Microsoft® Windows Server® 2008 Datacenter  Service Pack 2  64-bit          6.0.6001
